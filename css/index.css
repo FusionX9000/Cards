@@ -222,3 +222,8 @@ body a {
     text-align: center;
   }
 }
+
+#fileItem {
+  border:none;
+  text-decoration: none;
+}

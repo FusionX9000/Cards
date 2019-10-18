@@ -221,6 +221,9 @@ body a {
   .category ul {
     text-align: center;
   }
+  .aux {
+    display:none !important;
+  }
 }
 
 #fileItem {

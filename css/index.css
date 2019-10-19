@@ -173,7 +173,7 @@ body a {
   font-weight: normal;
 }
 
-.sticky {
+/* .sticky {
   z-index: 1;
   position: fixed;
   top: 0;
@@ -182,7 +182,7 @@ body a {
 
 .sticky + .main-content {
   padding-top: 90px;
-}
+} */
 
 @media screen and  (min-width: 900px) {
   .sidebar {
@@ -205,6 +205,9 @@ body a {
     padding-bottom: 10px;
   }
   .sidebar {
+    position: sticky;
+    top:0;
+    z-index: 1;
     height: 50px;
     margin-bottom: 40px;
   }
@@ -226,7 +229,7 @@ body a {
   }
 }
 
-#fileItem {
+/* #fileItem input[type=file] {
   border:none;
   text-decoration: none;
-}
+} */
